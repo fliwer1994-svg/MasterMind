@@ -11,4 +11,39 @@ img {
 
 body {
     margin: 0;
+    text-align: center;
+}
+
+
+.fond{
+    z-index: -10;
+    background-image: cover;
+    
+}
+
+.bleu{
+    color: blue;
+    width: 300px;
+}
+
+.rouge{
+    color: red;
+}
+
+.vert{
+    color:green
+}
+
+.jaune{
+    color: yellow;
+}
+
+.selecteur{
+    display: inline-block;
+    
+}
+
+#select1,#select2,#select3,#select4{
+    height: 50px ;
+    width: 50px;
 }
